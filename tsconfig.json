@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "target": "esnext",
+    "lib": ["es6", "esnext"],
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "declaration": true,
+    "inlineSourceMap": true,
+    "allowJs": true
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "include": [
+    "./src/**/*.ts",
+  ]
+}

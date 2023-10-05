@@ -1,0 +1,25 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "build": "shx rm -rf ./dist && tsc",
+    "start": "node -r source-map-support/register ./dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.8.2",
+    "shx": "^0.3.4",
+    "source-map-support": "^0.5.21",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@wombat86/test-lib": "^0.1.3"
+  }
+}
